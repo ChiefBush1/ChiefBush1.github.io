@@ -1,15 +1,72 @@
 ---
 layout: default
-title: "Home"  # or any title you want
+title: "Noted: Mental Wellness"
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>{{ page.title | default: site.title }}</title>
-</head>
-<body>
-  <h1>{{ site.title }}</h1>
-  <p>Welcome to my website powered by Jekyll and the Cayman theme.</p>
-</body>
-</html>
+<!-- Landing Section -->
+<section style="text-align: center; margin: 2em auto; max-width: 700px;">
+  <h1 style="margin-top: 1em;">Noted: Mental Wellness</h1>
+  <p style="font-size: 1.2em;">
+    A minimalist journaling app that helps you navigate life's ups and downs. Enjoy free daily journaling, emotional tracking, achievements, and more. Unlock advanced AI summaries and a suite of powerful CBT tools with Noted Plus.
+  </p>
+  <a href="#" style="
+    display: inline-block;
+    margin: 1.5em 0;
+    padding: 0.75em 1.25em;
+    background-color: #0366d6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  ">Download on the App Store</a>
+</section>
+
+<!-- About / Summary -->
+<section style="text-align: center; margin: 2em auto; max-width: 700px;">
+  <h2>About Noted</h2>
+  <p>
+    Noted was created by an independent developer with a simple mission:
+    to help people navigate their mental health journeys. Every feature
+    is designed with empathy, privacy, and empowerment in mind—supporting
+    you as you work toward greater mental clarity and resilience.
+  </p>
+</section>
+
+<!-- Contact Form -->
+<section style="margin: 2em auto; max-width: 700px;">
+  <h2>Contact</h2>
+  <p>Have questions, feedback, or just want to say hello?</p>
+  <form action="https://formspree.io/f/your-form-id" method="POST" style="max-width: 400px; margin: 1.5em auto;">
+    <label for="name" style="display: block; margin-bottom: 0.5em;">Name</label>
+    <input type="text" name="name" id="name" required 
+      style="width: 100%; padding: 0.5em; margin-bottom: 1em;" />
+
+    <label for="email" style="display: block; margin-bottom: 0.5em;">Email</label>
+    <input type="email" name="_replyto" id="email" required 
+      style="width: 100%; padding: 0.5em; margin-bottom: 1em;" />
+
+    <label for="message" style="display: block; margin-bottom: 0.5em;">Message</label>
+    <textarea name="message" id="message" required
+      style="width: 100%; padding: 0.5em; margin-bottom: 1em;"></textarea>
+
+    <button type="submit" style="
+      display: block;
+      width: 100%;
+      padding: 0.75em;
+      background-color: #0366d6;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    ">Send</button>
+  </form>
+</section>
+
+<!-- Footer / Quick Info -->
+<footer style="text-align: center; margin: 2em auto; padding-bottom: 3em;">
+  <p>
+    <strong>Contact Email:</strong> <a href="mailto:cameron@notedventures.ca">cameron@notedventures.ca</a><br>
+    <strong>Location:</strong> Toronto, ON
+  </p>
+</footer>
